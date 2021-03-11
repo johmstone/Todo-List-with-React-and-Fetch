@@ -214,6 +214,11 @@ export function Home() {
 							<List />
 						</div>
 					</div>
+					<div className="card-footer">
+						<button type="button" onClick={() => DeleteTodo()}>
+							Clear List
+						</button>
+					</div>
 				</div>
 			</div>
 		);
